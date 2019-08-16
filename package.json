@@ -1,0 +1,23 @@
+{
+  "name": "slackoverflow",
+  "version": "1.0.0",
+  "description": "A stack overflow search function for slack",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node handler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toreckk/slackoverflow.git"
+  },
+  "author": "Juan Coret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Toreckk/slackoverflow/issues"
+  },
+  "homepage": "https://github.com/Toreckk/slackoverflow#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
