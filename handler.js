@@ -43,7 +43,6 @@ module.exports.overflow = async event => {
   return {
     statusCode: 200,
     body: resp
-      },
   };
 };
 
