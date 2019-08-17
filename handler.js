@@ -1,11 +1,13 @@
 "use strict";
+const querystring = require("querystring");
 
 module.exports.hello = async event => {
   return {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: "Gimeno es un nooooooooooooooooooob!"
+        message: "Success!",
+        input: querystring.parse(event.body).text
       },
       null,
       2
