@@ -12,9 +12,3 @@ functions:
       - http:
           path: /
           method: post
-  authorization:
-    handler: handler.authorization
-    events:
-      - http:
-          method: get
-          path: slack/authorization
