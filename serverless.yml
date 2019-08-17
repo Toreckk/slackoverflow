@@ -39,8 +39,8 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  overflow:
+    handler: handler.overflow
     events:
       - http:
           path: /
