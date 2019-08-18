@@ -16,7 +16,7 @@ A stack overflow integration for slack in nodejs
 2.  In the features section add a new Slash command with the following properties:
 
         - Command: /overflow
-        - Request URL: https://dppyz5aju3.execute-api.eu-central-1.amazonaws.com/dev/
+        - Request URL: https://tvsvw1r7dd.execute-api.eu-central-1.amazonaws.com/production/
         - Short Description: Quick Stack Overflow search
         - Usage Hint: [search terms]
 
